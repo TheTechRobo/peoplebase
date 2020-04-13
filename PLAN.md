@@ -5,6 +5,6 @@ The splash screen has three buttons -- one that will do a `git pull` (and theref
 
 One button per half hour. When you click it it pops up with a `Toplevel()` window with an `Entry` widget, that asks you for the name.
 
-Uses a very crude technique -- one file per half hour, in a subdirectory.
+Will have a save file that contains a list: one entry of list per half-hour, and one file per employee.
 
-The database wont be much better -- one file per customer. If you want to edit that customer's info, you have to go through all the steps again.
+The database will be terrible -- one file per customer (with a list).
